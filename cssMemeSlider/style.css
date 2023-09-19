@@ -78,30 +78,26 @@ label .point {
 label:hover .point {
   background: #000000;
   opacity: 0.5;
-  border: 1px #fff solid;
+  border: 0.1em #fff solid;
 }
 #slide1:checked ~ .items-nav label:nth-child(1) .point {
-  content: '';
-  width: 10px;
-  height: 10px;
+  width: 0.6em;
+  height: 0.6em;
   background: #b3adab;
 }
 #slide2:checked ~ .items-nav label:nth-child(2) .point {
-  content: '';
-  width: 10px;
-  height: 10px;
+  width: 0.6em;
+  height: 0.6em;
   background: #b3adab;
 }
 #slide3:checked ~ .items-nav label:nth-child(3) .point {
-  content: '';
-  width: 10px;
-  height: 10px;
+  width: 0.6em;
+  height: 0.6em;
   background: #b3adab;
 }
 #slide4:checked ~ .items-nav label:nth-child(4) .point {
-  content: '';
-  width: 10px;
-  height: 10px;
+  width: 0.6em;
+  height: 0.6em;
   background: #b3adab;
 }
 
